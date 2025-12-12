@@ -1,16 +1,8 @@
-# missile_estimation
+# Line of Sight Intercept Estimation
 
 ## Abstract
-The goal of this project was to intercept a target with a missile using line-of sight mea-
-surements. Two models were used to develop the state dynamics in this project: the Gauss-
-Markov model and Random Telegraph model. The Continuous-time Kalman Filter was used
-to determine minimum variance estimates of the lateral position, velocity, and target accel-
-eration for both models. These estimates were compared to their corresponding true values
-over a span of 10 seconds. A Monte Carlo simulation was run for 10,000 realizations in order
-to confirm the Kalman Filter algorithm was functional and the models used were approx-
-imately correct. A comparison of the root mean square error of the different states from
-the simulation is made with the corresponding filter values. The Kalman Filter performed
-similarly for simulations of both the Gauss-Markov model and Random Telegraph model.
+The goal of this project was to intercept a target with a missile using line-of sight measurements. Two models were used to develop the state dynamics in this project: the Gauss-
+Markov model and Random Telegraph model. The Continuous-time Kalman Filter was used to determine minimum variance estimates of the lateral position, velocity, and target acceleration for both models. These estimates were compared to their corresponding true values over a span of 10 seconds. A Monte Carlo simulation was run for 10,000 realizations in order to confirm the Kalman Filter algorithm was functional and the models used were approximately correct. A comparison of the root mean square error of the different states from the simulation is made with the corresponding filter values. The Kalman Filter performed similarly for simulations of both the Gauss-Markov model and Random Telegraph model.
 
 ## Code Descriptions
 
